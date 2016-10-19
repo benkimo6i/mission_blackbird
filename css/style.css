@@ -76,6 +76,63 @@
 	}
 }
 
+.logo {
+	height: 32px;
+	width: 32px;
+	display: block;
+	margin: 30% 0 0 40%;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  text-indent: -9999px;
+        }
+ .twitter {
+                background-image: url(../images/twitter.png);
+                width: 24px;
+                height: 24px;
+              }
+ .twitter:hover {
+                background-color: #3CB371;
+                width: 24px;
+                height: 24px;
+                -moz-border-radius: 50px;
+                webkit-border-radius: 50px;
+                border-radius: 50px;
+              }
+
+  .linkedin {
+                background-image: url(../images/linkedin.png);
+                width: 24px;
+                height: 24px;
+            }
+  .linkedin:hover {
+                background-color: #3CB371;
+                width: 24px;
+                height: 24px;
+                -moz-border-radius: 50px;
+                webkit-border-radius: 50px;
+                border-radius: 50px;
+              }
+
+  .instagram {
+    background-image: url(../images/instagram.png);
+    width: 24px;
+    height: 24px;
+            }
+  .instagram:hover {
+                background-color: #3CB371;
+                width: 24px;
+                height: 24px;
+                -moz-border-radius: 50px;
+                webkit-border-radius: 50px;
+                border-radius: 50px;
+              }
 
 
 
