@@ -15,7 +15,7 @@
 }
 
 .left {
-	height: 100vh;
+	height: 100%;
 	background-color: #222;
 	color: #fff;
 }
@@ -38,7 +38,9 @@
 
 /*landing section styles go here*/
 
-
+#landing {
+	height: 100vh;
+}
 
 
 
@@ -46,6 +48,7 @@
 
 #how {
 	display: none;
+	height: 100vh;
 }
 
 
@@ -54,6 +57,7 @@
 
 #why {
 	display: none;
+	padding-bottom: 15%;
 }
 
 
@@ -63,14 +67,23 @@
 #contact {
 	display: none;
 	color: #3CB371;
+	height: 100vh;
 }
 
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	background-color: #3CB371;
+}
 
 
 /*universal page styles go here*/
 
 a {
 	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: #3CB371;
 }
 
 
