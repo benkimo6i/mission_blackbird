@@ -3,7 +3,6 @@
 
 .main_content {
 	height: 100vh;
-	width: 100%;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -12,12 +11,13 @@
 }
 
 .row {
-	width: 100%;
+	/*width: 100%;*/
 }
 
 .left {
-	background-color: #fff;
 	height: 100vh;
+	background-color: #222;
+	color: #fff;
 }
 
 .left .container {
@@ -26,8 +26,9 @@
 
 .right {
 	height: 100vh;
-	background-color: #0D254C;
-	color: #fff;
+	text-align: center;
+	margin: 0;
+	margin-left: 2%; /*dont get rid of this, it centers the social media logo*/
 }
 
 .right .container {
@@ -39,27 +40,36 @@
 
 .navbar {
 	width: 100%;
+	margin: 0 auto;
 }
 
-.navbar ul {
+.navbar ul.row {
 	list-style-type: none;
 	margin: 0;
 	padding-top: 24px;
+	text-align: center;
 }
 
-.navbar ul li {
+.navbar ul.row li {
 	padding: 0;
 	text-align: center;
 }
 
-.navbar ul li a {
+.navbar ul.row li a {
 	font-size: 1.2em;
 	text-decoration: none;
+	color: #3CB371;
+	text-align: center;
 }
 
 .logo {
-	display: block;
-	margin: 30% 0 0 25%;
+	/*display: block;*/
+	/*margin: 30% 0 0 25%; got rid of these to center it better*/
+	margin: 30% auto;
+}
+
+.logo img {
+	border-radius: 50%; /* made the logo round? Idk up to you */
 }
 
 .social-icons li {
@@ -69,16 +79,10 @@
 .social-icons a {
   display: inline-block;
   margin-right: 10px;
-  text-indent: -9999px;
+  text-indent: -9999px; /* what a hack lol */
 }
 
-.twitter {
-	background-image: url(../images/twitter.png);
-	width: 24px;
-	height: 24px;
-}
-
-.twitter:hover {
+.social-icons a:hover {
 	background-color: #3CB371;
 	width: 24px;
 	height: 24px;
@@ -87,34 +91,25 @@
     border-radius: 50px;
 }
 
-  .linkedin {
-                background-image: url(../images/linkedin.png);
-                width: 24px;
-                height: 24px;
-            }
-  .linkedin:hover {
-                background-color: #3CB371;
-                width: 24px;
-                height: 24px;
-                -moz-border-radius: 50px;
-                webkit-border-radius: 50px;
-                border-radius: 50px;
-              }
+/* put all the hover styles into one style, makes the code DRY */
 
-  .instagram {
+.twitter {
+	background-image: url(../images/twitter.png);
+	width: 24px;
+	height: 24px;
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.png);
+    width: 24px;
+    height: 24px;
+}
+
+.instagram {
     background-image: url(../images/instagram.png);
     width: 24px;
     height: 24px;
-            }
-  .instagram:hover {
-                background-color: #3CB371;
-                width: 24px;
-                height: 24px;
-                -moz-border-radius: 50px;
-                webkit-border-radius: 50px;
-                border-radius: 50px;
-              }
-
+}
 
 
 
