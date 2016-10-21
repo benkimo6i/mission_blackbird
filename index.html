@@ -23,6 +23,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <!-- Favicon
@@ -42,38 +43,52 @@
         <div class="navbar">
           <ul class="row">
             <li class="four columns">
-              <a href="#">How it Works</a>
+              <a href="#how">How it Works</a>
             </li>
             <li class="four columns">
-              <a href="#">Why Us</a>
+              <a href="#why">Why Us</a>
             </li>
             <li class="four columns">
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
         <div class="container">
-          <h1>Blackbird sources and trains candidates for nontechnical roles</h1>
-          <p>We find diverse candidates from minority and low-income backgrounds and get them to Ivy League standards <u>for free </u>. We take care of all the work so you can focus on building a world-class startup. </p>
-        
-        <!-- How it works section
-          Step 1: Together, we determine what role you'd like to fill and what that role entails. 
-          Step 2: We create a playbook and training scenarios to prepare your candidate. 
-          Step 3: We source and train candidates to these roles so that they're ready to go on their first day. 
+          <div id="landing">
+            <h1>Blackbird sources and trains candidates for nontechnical roles</h1>
+            <p>We find diverse candidates from minority and low-income backgrounds and get them to Ivy League standards <u>for free </u>. We take care of all the work so you can focus on building a world-class startup.</p>
+            <h5><a href="#"> Sign up here </a></h5>
+          </div>
+          
+          <div id="how">
+            <h1>How it works</h1>
+            <ol>
+              <li>Together, we determine what role you'd like to fill and what that role entails.</li>
+              <li>We create a playbook and training scenarios to prepare your candidate.</li>
+              <li>We source and train candidates to these roles so that they're ready to go on their first day.</li>
+            </ol>
+          </div>
 
-        Why us? 
-          Diversity
-          1. People often talk about diversity but ask for the best hires from only the top universities. Often times, they're the best because they are given the best resources. We want to provide those same resources to those who don't have access to it. 
+          <div id="why">
+            <h1>Why us?</h1>
+            <ol>
+              <li>Diversity</li>
+                <p>People often talk about diversity but ask for the best hires from only the top universities. Often times, they're the best because they are given the best resources. We want to provide those same resources to those who don't have access to it.</p>
+              <li>Low-hanging fruit</li>
+                <p>Not all diversity needs to fall under software engineering. There are plenty of folks out there who enjoy sales, customer experience, and operations. These people systematically get looked over because you hire your friends for those positions first. And if you're a white man then your founding team is going (most likely) to be white. If you care about diversity, this is the simplest and easiest way.</p>
+              <li>Risk Tolerance</li> <!-- any way we can shorten this? -->
+                <p>Minorities, who often come from low-income backgrounds, systematically pursue stable careers like finance, law, or medicine. Not only do they choose these because it's a fixed path to the middle class but it's because they lack social capital. They lack people to show and tell them what's out there because their parents have never had a traditional American job. Their schools, if they even get to that point, push them towards these established pathes because it means they have a better success rate at endownment. And simply put, when you're poor, you're definitely not going to risk what small money and opportunities your family members scarpped together over their entire lifetime to try and do something different. You go for that secure path because otherwise they would have traveled over land and sea and endured all this racism for nothing.</p>
+            </ol>
+          </div>
 
-          Low-hanging fruit 
-          2. Not all diversity needs to fall under software engineering. There are plenty of folks out there who enjoy sales, customer experience, and operations. These people systematically get looked over because you hire your friends for those positions first. And if you're a white man then your founding team is going (most likely) to be white. If you care about diversity, this is the simplest and easiest way. 
+          <div id="contact">
+            <form action="https://formspree.io/benkimo6i@gmail.com">
+              <input type="email" name="name" placeholder="your email" class="twelve columns">
+              <input type="text" name="_replyto" placeholder="your message" class="twelve columns">
+              <input type="submit" value="Send">
+            </form>
+          </div>
 
-          Risk Tolerance 
-          3. Minorities, who often come from low-income backgrounds, systematically pursue stable careers like finance, law, or medicine. Not only do they choose these because it's a fixed path to the middle class but it's because they lack social capital. They lack people to show and tell them what's out there because their parents have never had a traditional American job. Their schools, if they even get to that point, push them towards these established pathes because it means they have a better success rate at endownment. And simply put, when you're poor, you're definitely not going to risk what small money and opportunities your family members scarpped together over their entire lifetime to try and do something different. You go for that secure path because otherwise they would have traveled over land and sea and endured all this racism for nothing. 
-        -->
-
-
-          <h5> Sign up here </h5>
         </div>
       </div>
      
@@ -92,6 +107,8 @@
     </div>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="animations.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>

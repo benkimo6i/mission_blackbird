@@ -36,6 +36,50 @@
 }
 
 
+/*landing section styles go here*/
+
+
+
+
+
+/*how it works section styles go here*/
+
+#how {
+	display: none;
+}
+
+
+
+/*why us section styles go here*/
+
+#why {
+	display: none;
+}
+
+
+
+/*contact section styles go here*/
+
+#contact {
+	display: none;
+	color: #3CB371;
+}
+
+
+
+/*universal page styles go here*/
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
 /*navigation bar code*/
 
 .navbar {
@@ -70,6 +114,7 @@
 
 .logo img {
 	border-radius: 50%; /* made the logo round? Idk up to you */
+	border: 5px solid #3CB371;
 }
 
 .social-icons li {
@@ -91,7 +136,7 @@
     border-radius: 50px;
 }
 
-/* put all the hover styles into one style, makes the code DRY */
+/* I put all your hover styles into one style above, makes the code DRY */
 
 .twitter {
 	background-image: url(../images/twitter.png);
