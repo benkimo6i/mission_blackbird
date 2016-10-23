@@ -8,7 +8,7 @@ $( document ).ready(function() {
       var targetDiv = $(targetLink);
 
 
-      targetDiv.fadeIn(1000).siblings().hide(1000);
+      targetDiv.fadeIn(1000).siblings().fadeOut(700);
 
   });
 
