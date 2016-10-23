@@ -4,6 +4,7 @@
 .main_content {
 	height: 100vh;
 	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #000;
 }
 
 .main_content p {
@@ -16,8 +17,9 @@
 
 .left {
 	height: 100%;
-	background-color: #222;
-	color: #fff;
+	background-image: url(../images/leftbg.jpg);
+	opacity: 0.8;
+	/*color: #fff; */
 }
 
 .left .container {
@@ -29,6 +31,7 @@
 	text-align: center;
 	margin: 0;
 	margin-left: 2%; /*dont get rid of this, it centers the social media logo*/
+	background-color: #000;
 }
 
 .right .container {
@@ -87,17 +90,12 @@ a:hover {
 }
 
 
-
-
-
-
-
-
 /*navigation bar code*/
 
 .navbar {
 	width: 100%;
-	margin: 0 auto;
+	margin-top: 7%;
+
 }
 
 .navbar ul.row {
@@ -113,7 +111,7 @@ a:hover {
 }
 
 .navbar ul.row li a {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	text-decoration: none;
 	color: #3CB371;
 	text-align: center;
@@ -121,8 +119,8 @@ a:hover {
 
 .logo {
 	/*display: block;*/
-	/*margin: 30% 0 0 25%; got rid of these to center it better*/
 	margin: 30% auto;
+	padding-bottom: 10%
 }
 
 .logo img {
@@ -132,6 +130,7 @@ a:hover {
 
 .social-icons li {
   display: inline-block;
+  background-color: #fff;
 }
 
 .social-icons a {
@@ -169,6 +168,10 @@ a:hover {
     height: 24px;
 }
 
+.divider {
+	height: 100%;
+	background-color: #fff;
+}
 
 
 
