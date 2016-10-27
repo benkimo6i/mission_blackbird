@@ -8,7 +8,7 @@ body {
 .main_content {
 	/*height: 100vh;*/
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #000;
+	background-color: #fff;
 }
 
 .main_content p {
@@ -22,8 +22,7 @@ body {
 .left {
 	height: 100%;
 	background-image: url(../images/leftbg.jpg);
-	opacity: 0.8;
-	/*color: #fff; */
+	/*opacity: 0.8;*/
 }
 
 .left .container {
@@ -35,7 +34,7 @@ body {
 	text-align: center;
 	margin: 0;
 	margin-left: 2%; /*dont get rid of this, it centers the social media logo*/
-	background-color: #000;
+	background-color: #fff;
 }
 
 .right .container {
@@ -49,6 +48,16 @@ body {
 	height: 100vh;
 }
 
+.signUp {
+	color: #3CB371;
+	opacity: 1;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.signUp:hover {
+	opacity: .2;
+}
 
 
 /*how it works section styles go here*/
@@ -119,14 +128,31 @@ a:hover {
 	text-decoration: none;
 	color: #3CB371;
 	text-align: center;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
 }
+
+.navbar ul.row li a:hover {
+	opacity: .2;
+
+}
+
+
+
+
+
 
 .logo {
 	/*display: block;*/
 	margin: 30% auto;
 	padding-bottom: 10%;
+}
+
+.logoText {
+	opacity: 0;
 	text-shadow: 0 0 10px #3CB371;
 }
+
 
 .logo img {
 	border-radius: 50%; /* made the logo round? Idk up to you */
@@ -151,15 +177,14 @@ a:hover {
   display: inline-block;
   margin-right: 10px;
   text-indent: -9999px; /* what a hack lol */
+  border: 2px solid #3CB371;
+  border-radius: 50%;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .social-icons a:hover {
 	background-color: #3CB371;
-	width: 24px;
-	height: 24px;
-    -moz-border-radius: 50px;
-    webkit-border-radius: 50px;
-    border-radius: 50px;
 }
 
 /* I put all your hover styles into one style above, makes the code DRY */

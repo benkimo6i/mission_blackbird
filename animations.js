@@ -8,8 +8,21 @@ $( document ).ready(function() {
       var targetDiv = $(targetLink);
 
 
-      targetDiv.fadeIn(1000).siblings().fadeOut(700);
+      targetDiv.fadeIn(1000).siblings().fadeOut(500);
 
-  });
+  	});
 
+  	$('.logoText').delay(2000).animate({
+  		opacity: 1
+  	}, 1500);
+
+  	$('.social-icons').on('mouseover', function (e) {
+
+  		$('.twitter').addClass('animated zoomIn')
+  		$('.instagram').addClass('animated zoomIn')
+  		$('.linkedin').addClass('animated zoomIn')
+  	});
+
+
+ 
 });
