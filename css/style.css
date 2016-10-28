@@ -8,7 +8,7 @@ body {
 .main_content {
 	/*height: 100vh;*/
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #fff;
+	background-color: #111;
 }
 
 .main_content p {
@@ -22,7 +22,8 @@ body {
 .left {
 	height: 100%;
 	background-image: url(../images/leftbg.jpg);
-	/*opacity: 0.8;*/
+/*	margin: 0;
+	margin-right: 4%;*/
 }
 
 .left .container {
@@ -32,9 +33,7 @@ body {
 .right {
 	height: 100%;
 	text-align: center;
-	margin: 0;
-	margin-left: 2%; /*dont get rid of this, it centers the social media logo*/
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 .right .container {
@@ -73,7 +72,7 @@ body {
 
 #why {
 	display: none;
-	padding-bottom: 15%;
+	height: 100vh;
 }
 
 
@@ -88,6 +87,10 @@ body {
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
 	background-color: #3CB371;
+}
+
+textarea {
+	height: 205px;
 }
 
 
@@ -138,7 +141,7 @@ a:hover {
 }
 
 
-
+/*LOGO STYLE*/
 
 
 
@@ -156,7 +159,7 @@ a:hover {
 
 .logo img {
 	border-radius: 50%; /* made the logo round? Idk up to you */
-	border: 5px solid #3CB371;
+	border: 4px solid #3CB371;
 	/* logo animation stuff below */
 	animation-duration: 2s;
 	/*animation-iteration-count: infinite;*/
@@ -170,26 +173,25 @@ a:hover {
 
 .social-icons li {
   display: inline-block;
-  background-color: #fff;
 }
 
-.social-icons a {
+.social-icons a img {
   display: inline-block;
-  margin-right: 10px;
-  text-indent: -9999px; /* what a hack lol */
   border: 2px solid #3CB371;
   border-radius: 50%;
+  background-color: #fff;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
+  margin: 0 10px;
 }
 
-.social-icons a:hover {
+.social-icons a img:hover {
 	background-color: #3CB371;
 }
 
 /* I put all your hover styles into one style above, makes the code DRY */
 
-.twitter {
+/*.twitter {
 	background-image: url(../images/twitter.png);
 	width: 24px;
 	height: 24px;
@@ -206,11 +208,7 @@ a:hover {
     width: 24px;
     height: 24px;
 }
-
-.divider {
-	height: 100%;
-	background-color: #fff;
-}
+*/
 
 
 
